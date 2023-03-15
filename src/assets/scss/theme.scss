@@ -1,0 +1,27 @@
+body {
+  background: $white;
+  font-family: $family-sans-serif;
+
+  ::selection {
+    background: $white;
+  }
+}
+font-awesome-icon {
+  color: #A4B4CB;
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+.mainside {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.navigation-items {
+  height: calc(100vh - 72px);
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}

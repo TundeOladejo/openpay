@@ -1,0 +1,24 @@
+$white: #ffffff !default;
+$black: #000000;
+
+// @import "../../../node_modules/bootstrap/scss/variables";
+// $brand-font-family: 'Lato', $font-family-base;
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@400;500;700&display=swap');
+$primary-font: 'Questrial', sans-serif;
+$secondary-font: 'Poppins', sans-serif;
+
+// Set brand colors
+$brand-color: #0177FB;
+$brand-black: #141736;
+$secondary-black: #131635;
+$blue: #0177FD;
+$light-blue: #E5F1FF;
+$wild-blue: #A4B4CB;
+
+//Set font size
+$font-sm: 12px;
+$body-font: 16px;
+$font-md: 20px;
