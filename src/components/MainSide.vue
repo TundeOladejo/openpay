@@ -176,14 +176,14 @@ export default {
     <div class="column px-5">
       <div class="columns m-0">
         <div class="column">
-          <div class="is-flex is-justify-content-space-between is-align-items-center mb-5">
+          <div class="is-flex is-justify-content-space-between is-align-items-center pr-6 mb-5">
             <p>Money Flow</p>
             <p class="is-flex is-align-items-center">
               <img class="px-2" src="../assets/progress_grey.svg" alt="progress">
               <img class="px-2" src="../assets/bars_filled.svg" alt="progress">
             </p>
           </div>
-          <div class="is-flex is-justify-content-space-between is-align-items-center">
+          <div class="is-flex is-justify-content-space-between is-align-items-center pr-6">
             <div class="is-flex">
               <p class="">
                 <img src="../assets/progress_circle.svg" alt="progress">
@@ -240,7 +240,7 @@ export default {
 
           <div class="mt-5 groupParty">
             <div class="content p-5 groupParty-card">
-              <p>Group Party</p>
+              <p><span class="text-gray">Group </span>Party</p>
               <div class="is-flex is-justify-content-space-between is-align-items-center">
                 <div class="is-flex">
                   <img class="image is-32x32 recipientImg" v-for="(person, index) in people" :key="index"
@@ -306,7 +306,7 @@ export default {
                 </span>
                 <span class="ml-2">
                   <span>220k</span><br>
-                  <span>Customers</span>
+                  <span class="text-gray">Customers</span>
                 </span>
               </div>
               <div class="column is-flex">
@@ -315,7 +315,7 @@ export default {
                 </span>
                 <span class="ml-2">
                   <span>230k</span><br>
-                  <span>Remittance</span>
+                  <span class="text-gray">Remittance</span>
                 </span>
               </div>
               <div class="column is-flex">
@@ -324,7 +324,7 @@ export default {
                 </span>
                 <span class="ml-2">
                   <span>270k</span><br>
-                  <span>Donation</span>
+                  <span class="text-gray">Donation</span>
                 </span>
               </div>
               <div class="column is-flex">
@@ -333,7 +333,7 @@ export default {
                 </span>
                 <span class="ml-2">
                   <span>130k</span><br>
-                  <span>Watchtime</span>
+                  <span class="text-gray">Watchtime</span>
                 </span>
               </div>
             </div>
@@ -433,6 +433,7 @@ export default {
     padding: 10px;
     border-radius: 50%;
     border: 0.8px dashed #DDE5F0;
+    color: #0176FA;
   }
 }
 
@@ -474,5 +475,9 @@ export default {
 .pending {
   background: #FFF1ED;
   color: #FFAA90;
+}
+
+.text-gray {
+  color: #7C8CA6;
 }
 </style>
