@@ -14,9 +14,7 @@ export default {
                 { icon: "exclamation-circle", name: "Get Help" },
                 { icon: "gear", name: "Settings" },
             ],
-            extraClass: false,
-            isExtraClass: '',
-            isActive: '',
+            isActive: 'navbar-menu',
             active: false,
             showNavbar: true,
             window: {
@@ -29,7 +27,6 @@ export default {
         handleResize() {
             this.window.width = window.innerWidth;
             this.window.height = window.innerHeight;
-
         },
         respNav() {
             if (this.window.width <= 767) {
@@ -75,26 +72,27 @@ export default {
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbarBasicExample" class="navigation-items py-5" :class="active ? 'is-active' : ''">
-            <ul class="menu-list">
-                <li v-for="(item, index) in navigationList" :key="index" class="navigationList">
-                    <a class="is-flex is-flex-wrap-wrap is-justify-content-space-between py-4">
-                        <span><i class="bi pr-3" :class="`bi-` + item.icon"></i>{{ item.name }}</span>
-                        <span v-if="item.notification != null" class="tag is-rounded ml-3"
-                            style="background-color: #0177FB; color: white">{{ item.notification }}</span>
-                    </a>
-                </li>
-            </ul>
-            <ul class="menu-list">
-                <li v-for="(item, index) in otherList" :key="index" class="navigationList">
-                    <a class="py-4 pl-4">
-                        <span><i class="bi pr-3" :class="`bi-` + item.icon"></i>{{ item.name }}</span>
-                        <span v-if="item.notification != null" class="tag is-rounded pl-2"
-                            style="background-color: #0177FB;, color: white">{{ item.notification }}</span>
-                    </a>
-                </li>
-            </ul>
-            <!-- </div> -->
+        <div id="navbarBasicExample" class="navbar-menu py-5" :class="active ? 'is-active' : ''">
+            <div class="navigation-items">
+                <ul class="menu-list">
+                    <li v-for="(item, index) in navigationList" :key="index" class="navigationList">
+                        <a class="is-flex is-flex-wrap-wrap is-justify-content-space-between py-4">
+                            <span><i class="bi pr-3" :class="`bi-` + item.icon"></i>{{ item.name }}</span>
+                            <span v-if="item.notification != null" class="tag is-rounded ml-3"
+                                style="background-color: #0177FB; color: white">{{ item.notification }}</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-list">
+                    <li v-for="(item, index) in otherList" :key="index" class="navigationList">
+                        <a class="py-4 pl-4">
+                            <span><i class="bi pr-3" :class="`bi-` + item.icon"></i>{{ item.name }}</span>
+                            <span v-if="item.notification != null" class="tag is-rounded pl-2"
+                                style="background-color: #0177FB;, color: white">{{ item.notification }}</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </aside>
 </template>

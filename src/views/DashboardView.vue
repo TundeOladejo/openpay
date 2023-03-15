@@ -10,9 +10,7 @@ import SideBar from '../components/SideBar.vue'
         <SideBar />
       </div>
       <div class="mainside column is-variable px-5 has-text-weight-semibold">
-        <!-- <div class="columns"> -->
-          <MainSide />
-        <!-- </div> -->
+        <MainSide />
       </div>
     </div>
   </div>
