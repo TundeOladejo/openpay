@@ -1,0 +1,173 @@
+@import '../base.scss';
+
+.cardImg {
+    padding: 11px 18px 7px 15px;
+    height: 15vh;
+    background-image: url('../assets/cardBg.svg');
+    background-repeat: no-repeat;
+    background-color: #0177FB;
+    background-size: cover;
+    border-radius: 11.7px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
+    &-label {
+      font-size: 9px;
+      line-height: 10px;
+      font-weight: bold;
+    }
+  
+    &-name {
+      font-size: 13px;
+      line-height: 15px;
+      font-weight: bold;
+    }
+  
+    &-number {
+      font-size: 10px;
+      line-height: 12px;
+      font-weight: bold;
+    }
+  }
+  
+  .amtInput {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .transfer {
+    border: 0.566969px solid #E8E8E8 !important;
+    border-radius: 10px;
+    padding: 15px 12px 27px 12px;
+  }
+  
+  .table td {
+    border: none !important;
+    padding: 20px 10px !important;
+  }
+  
+  .recipientImg {
+    border-radius: 50%
+  }
+  
+  .overlapImg {
+    border: 2px solid white;
+  }
+  
+  .sendBtn {
+    color: white !important;
+    background-color: #0177FB !important;
+    border: none;
+    border-radius: 16px !important;
+  
+    &:hover {
+      box-shadow: rgba(30, 144, 255, 0.7) 0px 0px 0px 0.125rem;
+    }
+  }
+  
+  .options {
+    border: 0.7px solid #F2F2F2;
+    border-radius: 7px;
+  }
+  
+  .options-text {
+    color: #798BA3;
+    font-size: 10px;
+  }
+  
+  .groupParty {
+    &-card{
+      box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.06) !important;
+      border-radius: 8px !important;
+    }
+    &-num {
+      height: 26px;
+      width: 26px;
+      padding: 10px;
+      border-radius: 50%;
+      border: 0.8px dashed #DDE5F0;
+      color: #0176FA;
+    }
+  }
+  
+  .fw-bold {
+    font-weight: 500;
+  }
+  
+  .stats-img {
+    border-radius: 50%;
+  }
+  
+  .bg-purple {
+    background-color: #EFECFD;
+  }
+  
+  .bg-blue {
+    background-color: #E4F8FB;
+  }
+  
+  .bg-green {
+    background-color: #E5F7ED;
+  }
+  
+  .bg-yellow {
+    background-color: #FDF1E2;
+  }
+  
+  .status {
+    padding: 5px 12px;
+    border-radius: 4px;
+    text-transform: capitalize;
+  }
+  
+  .success {
+    background: #EBFFF3;
+    color: #61BB84;
+  }
+  
+  .pending {
+    background: #FFF1ED;
+    color: #FFAA90;
+  }
+  
+  .text-gray {
+    color: #7C8CA6;
+  }
+  
+  .border-md {
+    border-radius: 10px !important;
+  }
+  
+  .border-lg {
+    border-radius: 13px !important;
+  }
+  
+  .amtBox {
+    border: 1px solid #819CFD;
+    border-radius: 8px;
+  }
+  
+  .cardTypeBox {
+    border: 0.6px solid #F6F8FB;
+    border-radius: 7px;
+    font-size: 11px;
+    color: #798BA3;
+  }
+  
+  .fs-sm {
+    font-size: 9px;
+  }
+  
+  .fs-m {
+    font-size: 11px;
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+
+  .fw-light {
+    font-weight: lighter !important;
+  }

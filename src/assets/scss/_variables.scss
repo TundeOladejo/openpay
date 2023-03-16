@@ -1,13 +1,10 @@
 $white: #ffffff !default;
 $black: #000000;
 
-// @import "../../../node_modules/bootstrap/scss/variables";
-// $brand-font-family: 'Lato', $font-family-base;
-
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@400;500;700&display=swap');
-$primary-font: 'Questrial', sans-serif;
+$primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Poppins', sans-serif;
 
 // Set brand colors

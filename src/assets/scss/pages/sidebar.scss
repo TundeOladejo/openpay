@@ -1,0 +1,28 @@
+@import "../base.scss";
+
+.navigationList {
+  padding: 0px 16px;
+
+  &:hover {
+    border-left: 3px solid #0177fd;
+  }
+
+  i {
+    color: #a4b4cb;
+  }
+
+  &:hover i {
+    color: #0177fd;
+  }
+
+  & a {
+    border-radius: 4px;
+    color: #131635;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #e5f1ff;
+      color: #0177fd;
+    }
+  }
+}

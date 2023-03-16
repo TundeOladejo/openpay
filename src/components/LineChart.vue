@@ -32,3 +32,9 @@ export default {
 <template>
     <Line id="my-chart-id" :options="chartOptions" :data="chartData" />
 </template>
+
+<style lang="scss">
+#my-chart-id {
+  max-width: 100%;
+}
+</style>

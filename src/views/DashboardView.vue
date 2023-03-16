@@ -21,6 +21,7 @@ import SideBar from '../components/SideBar.vue'
   border-right: 2px solid #EDF1F2;
 }
 .mainside {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500 !important;
 }
 </style>
