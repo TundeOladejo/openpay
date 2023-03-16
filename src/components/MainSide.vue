@@ -39,7 +39,7 @@ export default {
         { img: "img6.jpg" },
       ],
       people: [{ img: "img1.jpg" }, { img: "img2.jpg" }, { img: "img3.jpg" }],
-      flags: [{ img: "img7.jpg" }, { img: "img7.jpg" }],
+      flags: [{ img: "us.svg" }, { img: "france.svg" }],
     };
   },
   methods: {
