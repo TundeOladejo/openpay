@@ -60,7 +60,7 @@ export default {
     >
       <span class="is-flex is-align-items-center">
         <figure class="image is-24x24 mr-3">
-          <img src="../assets/open.svg" alt="openpay logo" />
+          <img src="../assets/icons/open.svg" alt="openpay logo" />
         </figure>
         <span class="has-text-weight-bold">OpenPay</span>
       </span>

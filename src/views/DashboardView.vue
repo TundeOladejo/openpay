@@ -18,10 +18,10 @@ import SideBar from '../components/SideBar.vue'
 
 <style scoped>
 .aside {
+  font-family: 'Poppins', sans-serif;
   border-right: 2px solid #EDF1F2;
 }
 .mainside {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500 !important;
+  font-family: 'Gilroy', sans-serif;
 }
 </style>

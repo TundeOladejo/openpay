@@ -78,7 +78,7 @@ export default {
         <div>
           <div class="is-flex is-justify-content-space-between is-align-items-center">
             <p class="cardImg-number">1200 01452 54215</p>
-            <p><img src="../assets/visa.svg" alt="" /></p>
+            <p><img src="../assets/icons/visa.svg" alt="" /></p>
           </div>
           <p class="cardImg-number">08/23</p>
         </div>
@@ -90,8 +90,10 @@ export default {
         <div class="card my-5 cardOption border-md">
           <div class="card-content p-4">
             <div class="content is-flex is-justify-content-space-between is-align-items-center">
-              <img src="../assets/mastercard.svg" alt="mastercard logo" />
-              <span class="fs-sm">Debit</span>
+              <span class="is-flex is-align-items-center">
+                <img src="../assets/icons/mastercard.svg" alt="mastercard logo" />
+                <span class="fs-sm pl-1">Debit</span>
+              </span>
               <span><i class="bi bi-currency-dollar text-gray"></i>10.680</span>
               <i class="bi bi-chevron-down fs-sm"></i>
             </div>
@@ -133,7 +135,7 @@ export default {
             <div class="cardTypeBox my-3 p-3">
               <div class="content is-flex is-justify-content-space-between">
                 <span class="is-flex">
-                  <img src="../assets/mastercard.svg" alt="" />
+                  <img src="../assets/icons/mastercard.svg" alt="" />
                   <span class="pl-1">Debit</span>
                 </span>
                 <span class="is-flex">
@@ -156,22 +158,22 @@ export default {
             </div>
             <div class="my-3 is-flex is-justify-content-space-between is-align-items-center options-text">
               <span class="has-text-centered">
-                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/camSend.svg"
+                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/icons/camSend.svg"
                     alt="send" /></span><br />
                 <span>Send</span>
               </span>
               <span class="has-text-centered">
-                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/camReceive.svg"
+                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/icons/camReceive.svg"
                     alt="receive" /></span><br />
                 <span>Recieve</span>
               </span>
               <span class="has-text-centered">
-                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/invoiceYellow.svg"
+                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/icons/invoiceYellow.svg"
                     alt="invoicing" /></span><br />
                 <span>Invoicing</span>
               </span>
               <span class="has-text-centered">
-                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/more.svg"
+                <span class="is-flex is-justify-content-center p-3 options"><img src="../assets/icons/more.svg"
                     alt="more" /></span><br />
                 <span>More</span>
               </span>
@@ -182,23 +184,23 @@ export default {
     </div>
 
     <div class="column px-5">
-      <div class="columns m-0">
+      <div class="columns m-0 is-gapless">
         <div class="column">
           <div class="is-flex is-justify-content-space-between is-align-items-center pr-6 mb-5">
             <p>Money Flow</p>
             <p class="is-flex is-align-items-center">
-              <img class="px-2" src="../assets/progress_grey.svg" alt="progress" />
-              <img class="px-2" src="../assets/bars_filled.svg" alt="progress" />
+              <img class="px-2" src="../assets/icons/progress_grey.svg" alt="progress" />
+              <img class="px-2" src="../assets/icons/bars_filled.svg" alt="progress" />
             </p>
           </div>
           <div class="is-flex is-justify-content-space-between is-align-items-center pr-6">
             <div class="is-flex fs-m">
               <p class="is-flex is-align-items-center">
-                <img src="../assets/progress_circle.svg" alt="progress" />
+                <img src="../assets/icons/progress_circle.svg" alt="progress" />
                 <span class="px-3">Savings</span>
               </p>
               <p>
-                <img src="../assets/progress.svg" alt="progress" />
+                <img src="../assets/icons/progress.svg" alt="progress" />
                 <span class="px-3 text-gray">+6,79%</span>
               </p>
             </div>
@@ -220,12 +222,12 @@ export default {
               </div>
             </div>
           </div>
-
           <!-- Line Chart -->
           <div class="container">
             <LineChart />
           </div>
         </div>
+
         <div class="column is-one-third px-0">
           <div class="mb-5">
             <div class="is-flex is-justify-content-space-between">
@@ -312,7 +314,7 @@ export default {
             <div class="columns is-mobile is-multiline py-5">
               <div class="column is-flex">
                 <span class="stats-img p-4 bg-purple image is-48x48 is-flex">
-                  <img class="" src="../assets/customers.svg" alt="customers" />
+                  <img class="" src="../assets/icons/customers.svg" alt="customers" />
                 </span>
                 <span class="ml-2">
                   <span>220k</span><br />
@@ -321,7 +323,7 @@ export default {
               </div>
               <div class="column is-flex">
                 <span class="stats-img p-4 bg-blue image is-48x48 is-flex">
-                  <img class="" src="../assets/remittance.svg" alt="customers" />
+                  <img class="" src="../assets/icons/remittance.svg" alt="customers" />
                 </span>
                 <span class="ml-2">
                   <span>230k</span><br />
@@ -330,7 +332,7 @@ export default {
               </div>
               <div class="column is-flex">
                 <span class="stats-img p-4 bg-green image is-48x48 is-flex">
-                  <img class="" src="../assets/donation.svg" alt="customers" />
+                  <img class="" src="../assets/icons/donation.svg" alt="customers" />
                 </span>
                 <span class="ml-2">
                   <span>270k</span><br />
@@ -339,7 +341,7 @@ export default {
               </div>
               <div class="column is-flex">
                 <span class="stats-img p-4 bg-yellow image is-48x48 is-flex">
-                  <img class="" src="../assets/watchtime.svg" alt="customers" />
+                  <img class="" src="../assets/icons/watchtime.svg" alt="customers" />
                 </span>
                 <span class="ml-2">
                   <span>130k</span><br />
